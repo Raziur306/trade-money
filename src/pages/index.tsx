@@ -1,3 +1,4 @@
+import DataItems from "@/components/DataItems";
 import Header from "@/components/Header";
 import UserController from "@/components/UserController";
 import Layouts from "@/layouts/Layouts";
@@ -8,6 +9,7 @@ const Index = () => {
     <Layouts>
       <Header />
       <UserController />
+      <DataItems />
     </Layouts>
   );
 };

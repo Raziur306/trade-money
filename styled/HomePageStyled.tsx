@@ -140,3 +140,58 @@ export const TimeBtn = styled.button<{ isSelected?: boolean }>`
     background: #30ca4c;
   }
 `;
+
+export const TokenTextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  & h1 {
+    font-size: 1.35417vw;
+    color: #212531;
+    font-weight: bold;
+    display: block;
+    margin-right: 0.625vw;
+  }
+  & p {
+    font-size: 0.9375vw;
+    margin-bottom: 0.46875vw;
+    font-weight: bold;
+    color: rgba(33, 37, 49, 0.3);
+  }
+`;
+
+export const SubCardStyles = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background: #f3f5f8;
+  padding: 10px;
+  border-radius: 20px;
+  a {
+    display: block;
+    line-height: 100%;
+    color: #0085ff;
+    font-size: 0.72917vw;
+    font-weight: bold;
+  }
+  span {
+    font-size: 0.72917vw;
+    color: rgba(33, 37, 49, 0.5);
+  }
+  p {
+  }
+`;
+
+export const MentionDataWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  padding: 40px;
+  scrollbar-color: #30ca4c #eaecf0;
+  scrollbar-width: thin;
+`;
+
+export const FooterContainer = styled.div`
+  background: "#212531";
+`;
