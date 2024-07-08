@@ -193,5 +193,20 @@ export const MentionDataWrapper = styled.div`
 `;
 
 export const FooterContainer = styled.div`
-  background: "#212531";
+  background: #212531;
+  height: 10vh;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffff;
+  margin-top: 35px;
+`;
+
+export const SocialIconWrapper = styled.div`
+  border: 2px solid #30ca4c;
+  padding: 10px;
+  border-radius: 100%;
 `;
