@@ -1,6 +1,7 @@
 import { allData } from "@/utils/data";
 import React from "react";
 import MainCard from "./MainCard";
+import Pagination from "./Pagination";
 
 const DataItems = () => {
   return (
@@ -16,6 +17,7 @@ const DataItems = () => {
           />
         );
       })}
+      <Pagination />
     </div>
   );
 };

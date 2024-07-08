@@ -187,7 +187,7 @@ export const MentionDataWrapper = styled.div`
   flex-direction: column;
   gap: 12px;
   overflow-y: auto;
-  padding: 40px;
+  padding-right: 18px;
   scrollbar-color: #30ca4c #eaecf0;
   scrollbar-width: thin;
 `;
@@ -209,4 +209,19 @@ export const SocialIconWrapper = styled.div`
   border: 2px solid #30ca4c;
   padding: 10px;
   border-radius: 100%;
+`;
+
+export const ArrowBtnStyle = styled.button`
+  width: 85px;
+  height: 50px;
+  border-radius: 18px;
+  padding: 8px;
+  border: 2px solid rgba(58, 70, 89, 0.15);
+  cursor: pointer;
+`;
+
+export const NumberBtnStyle = styled.button`
+  font-weight: 700;
+  font-size: 0.9375vw;
+  color: "rgba(33,37,49,0.3)";
 `;
